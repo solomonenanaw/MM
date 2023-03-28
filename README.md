@@ -19,11 +19,11 @@ Follow the installation steps to open project without error
 2. I've used virtual environment. It's not necessary, but using virtual environment is preferable.
 ```sh
 
-git clone https://github.com/aggrey-Felix/HospitalmanagementSystem.git
+git clone https://github.com/solomonenanaw/MM.git
 ```
-cd  HospitalManagementSystem
+cd  MM
 
-root\HospitalManagementSystem>
+root\MM>
 4. Install all the required libraries for the application
 ```sh
 
@@ -33,7 +33,7 @@ root\HospitalManagementSystem>
 5. To run the code
 ```sh
 
-root/HospitalManagementSystem>flask run
+root/MM>flask run
 
 ```
 6. thats it..!!
@@ -43,7 +43,5 @@ root/HospitalManagementSystem>flask run
 <h1>Authors</h1>
 
 <ul>
-<li><a href="github.com/manodhiambo">Kevin Owino Odhiambo</a></li>
-<li><a href="github.com/aggrey-Felix">Felix Abongo</a></li>
-<li><a href="github.com/nandweza">Nandweza Allan</a></li>
+<li><a href="github.com/solomonenanaw">Solomon Enanaw</a></li>
 </ul>
