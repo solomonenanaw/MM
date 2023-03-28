@@ -1,5 +1,5 @@
 ## HospitalManagement
-A Simple Hospital Management Project build using Python Flask and SQL Alchemy
+A Simple MM Project build using Python Flask and SQL Alchemy
 
 ### Built With
 
