@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {% block title %} {% endblock %} </title>
+<style>
+
+</style>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+{% block css %}
+
+{% endblock %}
+</head>
+
+<body >
+    {% include "includes/header.html" %} 
+     
+        {% block content %} {% endblock %} 
+        <div class="body1">
+            <h1 style="color: rgb(252, 252, 252); font-size: 120px; margin-top: 200px; margin-left: 2px;">Welcome to <br> Kilifi County Hospital</h1>
+        </div> 
+        <div class="container1">
+            <img src="../static/images/1st.jpg" style ="width:100%" >
+        </div>
+        <div class="container1">
+            <img src="../static/images/care.jpg" style ="width:100%" >
+        </div>
+        
+        <div style="background-color: black;">
+            <div class="space-around" >
+                <div  class="footercontent1">
+                    <div>
+                        <p class="foot_word_edit"><b> About Us</b></p>
+                        
+                        <div class="footcontentinfo"><span>We serve patients, families, communities, and populations. They cover emergency, preventative, rehabilitative, long-term, hospital, diagnostic, primary, palliative, and home care.
+                        <br> These services are centered around making health care accessible, high quality, and patient-centered</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="footercontent2">
+                    <div>
+                        <p class="foot_word_edit"><b>Services Provided</b></p>
+                    <div class="footcontentinfo"><span>Emergency Services <br> Wards <br>
+                        Immunization program <br> PreNatal and PostNatal care <br> Malaria Prevention and control <br> TB control <br> HIV testing,prevention <br>in patient care
+                    </span>
+                    </div>
+                    </div>
+                </div>
+                <div class="footercontent3">
+                    <div>
+                        <p class="foot_word_edit"><b>Contact Us</b></p>
+                        <div class="footcontentinfo"><span>Email : customer.service@kilificountyhosi.com</span>
+                            <span>Contact No : 0758722003</span>
+                            <span>Address : P.O Box 9-80108</span>
+                            <span>Kilifi, Kilifi county</span>
+                            <span>Zip : 00100</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div>
+            <div class="space-between endfooter">
+                <div>
+                    <span class="lastfooter">Copyright © All rights reserved by</span>
+                    <span class="foot_word_edit lastfooter"><b>Kilifi County Hospital</b></span>
+                </div>
+                <div>
+                    <span class="foot_word_edit lastfooter "><b>Connect Us</b></span>
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    <i class="fa fa-sitemap" aria-hidden="true"></i>
+    
+    
+                </div>
+            </div>
+        </div>
+        
+    
+    <!-- {% include "includes/footer.html" %} -->
+</body>
+
+</html>
